@@ -10,9 +10,11 @@ interface HeroProps {
 
 export function Hero({ profile, t }: HeroProps) {
   const [imgError, setImgError] = useState(false)
+  const photoUrl = profile.photo.startsWith('/') ? `${import.meta.env.BASE_URL}${profile.photo.slice(1)}` : profile.photo
 
+  const cvUrl = profile.cvUrl.startsWith('/') ? `${import.meta.env.BASE_URL}${profile.cvUrl.slice(1)}` : profile.cvUrl
   const buttons = [
-    { icon: Download, label: t.downloadCV, href: profile.cvUrl, primary: true },
+    { icon: Download, label: t.downloadCV, href: cvUrl, primary: true },
     { icon: Linkedin, label: 'LinkedIn', href: profile.linkedin },
     { icon: Globe, label: 'Indeed', href: profile.indeed },
     { icon: MessageSquare, label: 'WhatsApp', href: profile.whatsapp },
@@ -109,7 +111,7 @@ export function Hero({ profile, t }: HeroProps) {
                   </div>
                 ) : (
                   <img
-                    src={profile.photo}
+                    src={photoUrl}
                     alt={profile.name}
                     className="w-full h-full object-cover"
                     onError={() => setImgError(true)}
