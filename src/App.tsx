@@ -25,7 +25,7 @@ export default function App() {
   const { lang, toggle, t } = useLanguage()
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/pedrohenrique-portfolio">
       <Routes>
         <Route element={<MainLayout profile={profile} t={t} theme={theme} lang={{ lang, toggle }} />}>
           <Route path="/" element={<Home profile={profile} t={t} />} />
