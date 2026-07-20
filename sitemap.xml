@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://pedrohenrique.dev/</loc><priority>1.0</priority></url>
+  <url><loc>https://pedrohenrique.dev/sobre</loc><priority>0.8</priority></url>
+  <url><loc>https://pedrohenrique.dev/experiencia</loc><priority>0.8</priority></url>
+  <url><loc>https://pedrohenrique.dev/resultados</loc><priority>0.8</priority></url>
+  <url><loc>https://pedrohenrique.dev/competencias</loc><priority>0.7</priority></url>
+  <url><loc>https://pedrohenrique.dev/projetos</loc><priority>0.7</priority></url>
+  <url><loc>https://pedrohenrique.dev/galeria</loc><priority>0.6</priority></url>
+  <url><loc>https://pedrohenrique.dev/certificados</loc><priority>0.6</priority></url>
+  <url><loc>https://pedrohenrique.dev/contato</loc><priority>0.5</priority></url>
+</urlset>
