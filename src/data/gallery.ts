@@ -1,0 +1,88 @@
+import type { GalleryItem } from '../types'
+
+export const galleryItems: GalleryItem[] = [
+  {
+    id: 'gal-1',
+    src: 'https://images.unsplash.com/photo-1552581234-26160f608093?w=800',
+    alt: 'Treinamento de equipe',
+    category: 'treinamentos',
+    title: 'Treinamento Operacional',
+  },
+  {
+    id: 'gal-2',
+    src: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800',
+    alt: 'Gestão operacional',
+    category: 'operacoes',
+    title: 'Gestão de Operações',
+  },
+  {
+    id: 'gal-3',
+    src: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800',
+    alt: 'Evento corporativo',
+    category: 'eventos',
+    title: 'Evento de Equipe',
+  },
+  {
+    id: 'gal-4',
+    src: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800',
+    alt: 'Análise de resultados',
+    category: 'projetos',
+    title: 'Acompanhamento de Resultados',
+  },
+  {
+    id: 'gal-5',
+    src: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800',
+    alt: 'Equipe operacional',
+    category: 'operacoes',
+    title: 'Equipe em Ação',
+  },
+  {
+    id: 'gal-6',
+    src: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800',
+    alt: 'Palestra motivacional',
+    category: 'eventos',
+    title: 'Palestra e Motivação',
+  },
+  {
+    id: 'gal-7',
+    src: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800',
+    alt: 'Treinamento',
+    category: 'treinamentos',
+    title: 'Capacitação de Equipe',
+  },
+  {
+    id: 'gal-8',
+    src: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800',
+    alt: 'Centro de operações',
+    category: 'operacoes',
+    title: 'Centro Operacional',
+  },
+  {
+    id: 'gal-9',
+    src: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800',
+    alt: 'Projeto',
+    category: 'projetos',
+    title: 'Projeto Loja de Conveniência',
+  },
+  {
+    id: 'gal-10',
+    src: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800',
+    alt: 'Premiação',
+    category: 'eventos',
+    title: 'Reconhecimento de Resultados',
+  },
+  {
+    id: 'gal-11',
+    src: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800',
+    alt: 'Treinamento equipe',
+    category: 'treinamentos',
+    title: 'Treinamento de Atendimento',
+  },
+  {
+    id: 'gal-12',
+    src: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800',
+    alt: 'Análise de dados',
+    category: 'projetos',
+    title: 'Métricas e Indicadores',
+  },
+]
